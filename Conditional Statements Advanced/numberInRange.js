@@ -1,0 +1,12 @@
+function numberInRange(a){
+
+    if(a >= -100 && a <= 100 && a != 0){
+        console.log("Yes");
+    }
+    else {
+        console.log("No");
+    }
+
+
+}
+numberInRange(0);
